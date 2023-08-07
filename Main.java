@@ -21,10 +21,8 @@ public class Main {
         System.out.println("Jogue a bola de boliche! escreva 'jogar'");
         String usuario = entrada.nextLine();
       
-        
     //Randomizar a Jogada.
         
-   
         char escolha;
 
         do { 
@@ -97,12 +95,6 @@ if(escolha == 'n'  || escolha == 'N'){
     System.out.println("Obrigado por jogar, Volte Sempre!");
 }
 
-
  }while(escolha == 'S' || escolha == 's');
-
-
-      
- 
- 
     }
 }
